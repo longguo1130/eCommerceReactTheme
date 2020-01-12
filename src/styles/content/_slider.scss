@@ -1,0 +1,71 @@
+.slider-section{
+    margin-bottom:100px;
+    @media screen and (min-width: 768px)  and (max-width: 1200px) {
+        margin-bottom:50px;
+    }
+    @media screen and (max-width: 767px) {
+        margin-bottom:10px;
+    }
+    .carousel {
+
+        .slider-wrapper {
+    
+            .slider {
+                .slide {
+                    .overlay{
+                        background: rgba(0,0,0,0.41);
+                        height: 100%;
+                        position: absolute;
+                        width: 100%;
+       
+                    }
+                    position: relative;
+                    figcaption{
+                        position: absolute;
+                        left: 10%;
+                        top: 39%;
+                        text-align: left;
+                        color:#fff;
+                        width: 38%;
+                        @media screen and (min-width: 768px)  and (max-width: 1200px) {
+                            top: 20%;
+                            width: 50%;
+                        }
+                        @media screen and (max-width: 767px) {
+                            top: 10%;
+                            width: 90%;
+                        }
+                        .slide-title {
+                            font-size: 60px;
+                            @media screen and (min-width: 768px)  and (max-width: 1200px) {
+                                font-size: 48px;
+                            }
+                            @media screen and (max-width: 767px) {
+                                font-size: 20px;
+                            }
+                        }
+                        .slide-date {
+                            font-size: 60px;
+                            @media screen and (min-width: 768px)  and (max-width: 1200px) {
+                                font-size: 48px;                             
+                            }
+                            @media screen and (max-width: 767px) {
+                                font-size: 20px;
+                            }
+                        }
+                        .slide-body {
+                            font-size: 30px;
+                            @media screen and (min-width: 768px)  and (max-width: 1200px) {
+                                font-size: 24px;                       
+                            }
+                            @media screen and (max-width: 767px) {
+                                font-size: 11px;  
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
