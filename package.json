@@ -2,7 +2,7 @@
   "name": "view",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sforbawebdev.github.io/spartaplaesant",
+  "homepage": "https://sforbawebdev.github.io/eCommerceReactTheme/",
   "dependencies": {
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
