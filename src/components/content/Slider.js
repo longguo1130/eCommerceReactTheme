@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import SliderItem from './SliderItem.js'
+import { connect } from 'react-redux';
+import SliderItem from './SliderItem.js';
 
+const mapStatetoProps =  (state) =>{
+    const slides = state.hero;
+    return slides;
+}
 class Slider extends Component {
     constructor(props) {
         super(props);
@@ -24,4 +29,4 @@ class Slider extends Component {
     }
 };
 
-export default Slider;
+export default connect(mapStatetoProps)(Slider);

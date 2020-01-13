@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import Masonry from 'react-masonry-component';
+import GalleryItem from './GalleryItem.js';
+import { connect } from 'react-redux';
 
-import GalleryItem from './GalleryItem.js'
-
+const mapStatetoProps =  (state) =>{
+    const posts = state.posts;
+    return posts;
+}
 class Gallery extends Component {
     constructor(props) {
         super(props);
@@ -10,7 +14,7 @@ class Gallery extends Component {
     
     render() {
 
-        const posts = this.props.posts.map((item,key)=>{
+        const postList = this.props.posts.map((item,key)=>{
   
            return (
                 <GalleryItem key={key} image={item.postImageLink} date={item.postDate} title={item.postTitle} link={item.postLink} />
@@ -26,11 +30,11 @@ class Gallery extends Component {
                     updateOnEachImageLoad={false}
 
                 >
-                    {posts}
+                    {postList}
                 </Masonry>
             </div>
         );
     }
 };
 
-export default Gallery;
+export default connect(mapStatetoProps)(Gallery);
