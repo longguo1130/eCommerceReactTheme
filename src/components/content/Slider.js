@@ -5,8 +5,9 @@ import { connect } from 'react-redux';
 import SliderItem from './SliderItem.js';
 
 const mapStatetoProps =  (state) =>{
-    const slides = state.hero;
-    return slides;
+
+    const slides = state.slider.hero;
+    return {slides};
 }
 class Slider extends Component {
     constructor(props) {
@@ -15,8 +16,8 @@ class Slider extends Component {
     
     render() {
 
-        
         return (
+
             <Carousel showThumbs={false} showArrows={false} infiniteLoop={true} showStatus={false}>
                 {
                 this.props.slides.map((item, key) => {         

@@ -4,8 +4,9 @@ import GalleryItem from './GalleryItem.js';
 import { connect } from 'react-redux';
 
 const mapStatetoProps =  (state) =>{
-    const posts = state.posts;
-    return posts;
+    
+    const posts = state.post.posts;
+    return {posts};
 }
 class Gallery extends Component {
     constructor(props) {

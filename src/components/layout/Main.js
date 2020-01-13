@@ -12,10 +12,10 @@ class Main extends Component {
     return(
       <main>
         <section className="slider-section">
-          <Slider slides={this.props.slides}/>
+          <Slider />
         </section>
         <section className="gallery-section">
-          <Gallery posts={this.props.posts}/>
+          <Gallery />
         </section>
       </main>
     );
