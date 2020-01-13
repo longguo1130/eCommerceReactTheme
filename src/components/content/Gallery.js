@@ -9,19 +9,20 @@ const mapStatetoProps =  (state) =>{
     return {posts};
 }
 class Gallery extends Component {
-    constructor(props) {
-        super(props);
-    }   
-    
+
     render() {
 
-        const postList = this.props.posts.map((item,key)=>{
+        const postList = this.props.posts.sort((a, b) =>{
+            
+            return new Date(a.order) - new Date(b.order);
+        }).map((item,key)=>{
   
-           return (
-                <GalleryItem key={key} image={item.postImageLink} date={item.postDate} title={item.postTitle} link={item.postLink} />
-            );
+           return (<GalleryItem key={key} image={item.postImageLink} date={item.postDate} title={item.postTitle} link={item.postLink} />);
         });
-    
+        console.log(this.props.posts.sort((a, b) =>{
+            
+            return new Date(b.postDate) - new Date(a.postDate);
+        }))
         return (
             <div className="content-wrapper">
                 <Masonry

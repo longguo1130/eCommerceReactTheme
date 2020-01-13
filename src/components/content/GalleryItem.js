@@ -7,7 +7,7 @@ class GalleryItem extends Component {
     }   
 
     render() {
-      console.log(this.props)
+
       return (
           <li className="gallery-item">
             <figure className="">

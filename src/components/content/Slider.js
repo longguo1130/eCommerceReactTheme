@@ -15,7 +15,7 @@ class Slider extends Component {
     }   
     
     render() {
-
+        // console.log(this.props.slides)
         return (
 
             <Carousel showThumbs={false} showArrows={false} infiniteLoop={true} showStatus={false}>
