@@ -1,0 +1,50 @@
+#header_fill {
+    display: none;
+    height: 120px;
+    @media screen and (max-width: 767px) {  
+        height: 80px;
+    }
+    &.scrolled {
+        display: block;
+    }
+}
+header {
+    background: #fff;
+    font-family: 'SpringvilleRegular3';
+    height: 120px;
+    width: 100%;
+    &.scrolled {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+    @media screen and (max-width: 767px) {  
+        height: 80px;
+    }
+    .content-wrapper {
+        height: 100%;
+        .logo-link {
+            display: block;
+            @media screen and (max-width: 767px) {  
+                margin-bottom: 5px;
+            }
+        }
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 1150px;
+        @media screen and (min-width: 768px)  and (max-width: 1200px) {
+            width: 90%;
+        }
+        @media screen and (max-width: 767px) { 
+            width: 95%;
+            flex-direction: column;
+            justify-content: space-evenly;
+   
+        }
+    }
+
+
+}

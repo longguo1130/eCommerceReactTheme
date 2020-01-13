@@ -1,0 +1,73 @@
+.gallery-section {
+    .content-wrapper {
+        width: 1200px;
+        margin: 0 auto;
+        @media screen and (min-width: 768px)  and (max-width: 1200px) {
+            width: 90%;
+        }
+        @media screen and (max-width: 767px) { 
+            width: 95%;
+        }
+        .gallery {
+            .gallery-item {
+                border-bottom: 1px solid #dbdbdb;
+                margin-bottom: 50px;
+                padding-bottom: 50px;
+                padding-left: 25px;
+                padding-right: 25px;
+                width: 350px;
+                @media screen and (min-width: 768px)  and (max-width: 1200px) {
+                    width: 40%;
+                    padding: 5%;
+                    
+                }
+                @media screen and (max-width: 767px) {
+                    width: 98%;
+                    padding: 1%;
+                    margin-bottom: 20px;
+                }
+                .gallery-image {
+                    margin-bottom:50px;
+                    @media screen and (max-width: 1200px) {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom:25px;
+                    }
+                }
+                .gallery-date {
+                    color:#767676;
+                    font-family: Arial, sans-serif;
+                    font-size: 11px;
+                    margin-bottom:50px;
+                    @media screen and (max-width: 767px) {
+                        font-size: 8px;
+                        margin-bottom:25px;
+                    }
+                }
+                .gallery-title{
+                    color:#131313;
+                    font-family: 'CaslonPro', serif;
+                    font-size: 48px;
+                    margin-bottom:25px;
+                    @media screen and (max-width: 767px) {
+                        font-size: 36px;
+                        margin-bottom:12px;
+                    }
+                }
+                .gallery-link {
+                    color:#131313;
+                    font-family: 'CaslonPro', serif;
+                    font-size: 14px;
+                    @media screen and (max-width: 767px) {
+                        font-size: 11px;
+                    }
+                    a {
+                        color:#131313;
+                        text-transform: uppercase;
+                    }
+
+                }
+            }
+        }
+    }
+}
