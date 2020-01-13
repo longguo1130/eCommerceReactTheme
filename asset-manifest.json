@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/spartaplaesant/static/css/main.75687f8c.chunk.css",
+    "main.js": "/spartaplaesant/static/js/main.8ea078ad.chunk.js",
+    "main.js.map": "/spartaplaesant/static/js/main.8ea078ad.chunk.js.map",
+    "runtime-main.js": "/spartaplaesant/static/js/runtime-main.1c358103.js",
+    "runtime-main.js.map": "/spartaplaesant/static/js/runtime-main.1c358103.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/spartaplaesant/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.9db672fc.chunk.js": "/spartaplaesant/static/js/2.9db672fc.chunk.js",
+    "static/js/2.9db672fc.chunk.js.map": "/spartaplaesant/static/js/2.9db672fc.chunk.js.map",
+    "index.html": "/spartaplaesant/index.html",
+    "precache-manifest.7671be4213a0f90b777e6246fb43242f.js": "/spartaplaesant/precache-manifest.7671be4213a0f90b777e6246fb43242f.js",
+    "service-worker.js": "/spartaplaesant/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/spartaplaesant/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.75687f8c.chunk.css.map": "/spartaplaesant/static/css/main.75687f8c.chunk.css.map",
+    "static/js/2.9db672fc.chunk.js.LICENSE": "/spartaplaesant/static/js/2.9db672fc.chunk.js.LICENSE",
+    "static/media/stylesheet.scss": "/spartaplaesant/static/media/Springville-Regular3.47a715e6.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c358103.js",
+    "static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.9db672fc.chunk.js",
+    "static/css/main.75687f8c.chunk.css",
+    "static/js/main.8ea078ad.chunk.js"
+  ]
+}
