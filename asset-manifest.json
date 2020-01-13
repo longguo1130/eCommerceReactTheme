@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/spartaplaesant/static/css/main.75687f8c.chunk.css",
-    "main.js": "/spartaplaesant/static/js/main.8ea078ad.chunk.js",
-    "main.js.map": "/spartaplaesant/static/js/main.8ea078ad.chunk.js.map",
-    "runtime-main.js": "/spartaplaesant/static/js/runtime-main.1c358103.js",
-    "runtime-main.js.map": "/spartaplaesant/static/js/runtime-main.1c358103.js.map",
-    "static/css/2.3c1ddb0a.chunk.css": "/spartaplaesant/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.9db672fc.chunk.js": "/spartaplaesant/static/js/2.9db672fc.chunk.js",
-    "static/js/2.9db672fc.chunk.js.map": "/spartaplaesant/static/js/2.9db672fc.chunk.js.map",
-    "index.html": "/spartaplaesant/index.html",
-    "precache-manifest.7671be4213a0f90b777e6246fb43242f.js": "/spartaplaesant/precache-manifest.7671be4213a0f90b777e6246fb43242f.js",
-    "service-worker.js": "/spartaplaesant/service-worker.js",
-    "static/css/2.3c1ddb0a.chunk.css.map": "/spartaplaesant/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.75687f8c.chunk.css.map": "/spartaplaesant/static/css/main.75687f8c.chunk.css.map",
-    "static/js/2.9db672fc.chunk.js.LICENSE": "/spartaplaesant/static/js/2.9db672fc.chunk.js.LICENSE",
-    "static/media/stylesheet.scss": "/spartaplaesant/static/media/Springville-Regular3.47a715e6.otf"
+    "main.css": "/eCommerceReactTheme/static/css/main.1fb586de.chunk.css",
+    "main.js": "/eCommerceReactTheme/static/js/main.6ad2a037.chunk.js",
+    "main.js.map": "/eCommerceReactTheme/static/js/main.6ad2a037.chunk.js.map",
+    "runtime-main.js": "/eCommerceReactTheme/static/js/runtime-main.3d7c556d.js",
+    "runtime-main.js.map": "/eCommerceReactTheme/static/js/runtime-main.3d7c556d.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/eCommerceReactTheme/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.9db672fc.chunk.js": "/eCommerceReactTheme/static/js/2.9db672fc.chunk.js",
+    "static/js/2.9db672fc.chunk.js.map": "/eCommerceReactTheme/static/js/2.9db672fc.chunk.js.map",
+    "index.html": "/eCommerceReactTheme/index.html",
+    "precache-manifest.10b6a750df0c7bd986c46e703a869c60.js": "/eCommerceReactTheme/precache-manifest.10b6a750df0c7bd986c46e703a869c60.js",
+    "service-worker.js": "/eCommerceReactTheme/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/eCommerceReactTheme/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.1fb586de.chunk.css.map": "/eCommerceReactTheme/static/css/main.1fb586de.chunk.css.map",
+    "static/js/2.9db672fc.chunk.js.LICENSE": "/eCommerceReactTheme/static/js/2.9db672fc.chunk.js.LICENSE",
+    "static/media/stylesheet.scss": "/eCommerceReactTheme/static/media/Springville-Regular3.47a715e6.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c358103.js",
+    "static/js/runtime-main.3d7c556d.js",
     "static/css/2.3c1ddb0a.chunk.css",
     "static/js/2.9db672fc.chunk.js",
-    "static/css/main.75687f8c.chunk.css",
-    "static/js/main.8ea078ad.chunk.js"
+    "static/css/main.1fb586de.chunk.css",
+    "static/js/main.6ad2a037.chunk.js"
   ]
 }
