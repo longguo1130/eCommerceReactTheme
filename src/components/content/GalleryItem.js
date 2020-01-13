@@ -11,7 +11,7 @@ class GalleryItem extends Component {
       return (
           <li className="gallery-item">
             <figure className="">
-                <img src={this.props.image} className="gallery-image"/>
+                <img src={process.env.PUBLIC_URL +this.props.image} className="gallery-image"/>
                 <figcaption>
                   <div className="gallery-date">{this.props.date}</div>
                   <div className="gallery-title">{this.props.title}</div>
