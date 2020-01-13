@@ -7,7 +7,21 @@
         margin-bottom:10px;
     }
     .carousel {
-
+        bottom:-7%;
+        overflow: visible !important;
+        .control-dots {
+            bottom: -7%;
+            .dot {
+                background:#f0f0f0;
+                box-shadow:unset;
+                height: 10px;
+                opacity: 0.9;
+                width: 10px;
+                &.selected {
+                    background:#e1e1e1;
+                }
+            }
+        }
         .slider-wrapper {
     
             .slider {
@@ -20,6 +34,13 @@
        
                     }
                     position: relative;
+                    img {
+                        @media screen and (max-width: 767px) {
+                            height: 400px;
+                            width: auto;
+                        }
+
+                    }
                     figcaption{
                         position: absolute;
                         left: 10%;
@@ -32,7 +53,7 @@
                             width: 50%;
                         }
                         @media screen and (max-width: 767px) {
-                            top: 10%;
+                            top: 30%;
                             width: 90%;
                         }
                         .slide-title {
@@ -42,15 +63,21 @@
                             }
                             @media screen and (max-width: 767px) {
                                 font-size: 20px;
+                                margin-bottom: 10px;
+                                max-width: 96%;
                             }
                         }
                         .slide-date {
                             font-size: 60px;
                             @media screen and (min-width: 768px)  and (max-width: 1200px) {
-                                font-size: 48px;                             
+                                font-size: 48px;  
+                                                           
                             }
                             @media screen and (max-width: 767px) {
                                 font-size: 20px;
+                                margin-bottom: 10px;
+                                max-width: 96%;
+
                             }
                         }
                         .slide-body {
@@ -59,7 +86,8 @@
                                 font-size: 24px;                       
                             }
                             @media screen and (max-width: 767px) {
-                                font-size: 11px;  
+                                font-size: 16px;  
+                                max-width: 96%;
                             }
                         }
                     }

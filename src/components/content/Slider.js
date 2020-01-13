@@ -12,7 +12,7 @@ class Slider extends Component {
 
         
         return (
-            <Carousel showThumbs={false} infiniteLoop={true} showStatus={false}>
+            <Carousel showThumbs={false} showArrows={false} infiniteLoop={true} showStatus={false}>
                 {
                 this.props.slides.map((item, key) => {         
                     return <SliderItem key={key} image={item.heroImageLink} title={item.heroTitle} date={item.heroDate} body={item.heroBody}/>;

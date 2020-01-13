@@ -11,7 +11,7 @@ class Gallery extends Component {
     render() {
 
         const posts = this.props.posts.map((item,key)=>{
-            console.log(item)
+  
            return (
                 <GalleryItem key={key} image={item.postImageLink} date={item.postDate} title={item.postTitle} link={item.postLink} />
             );
@@ -20,10 +20,10 @@ class Gallery extends Component {
         return (
             <div className="content-wrapper">
                 <Masonry
-                    className={'gallery'} // default ''
-                    elementType={'ul'} // default 'div'
-                    disableImagesLoaded={false} // default false
-                    updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
+                    className={'gallery'}
+                    elementType={'ul'} 
+                    disableImagesLoaded={false} 
+                    updateOnEachImageLoad={false}
 
                 >
                     {posts}
